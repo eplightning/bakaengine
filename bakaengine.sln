@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bakaengine", "bakaengine\bakaengine.vcxproj", "{D6533D60-928B-4336-AE76-392F705661BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glew_static", "glew-1.12.0\build\vc12\glew_static.vcxproj", "{664E6F0D-6784-4760-9565-D54F8EB1EDF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6533D60-928B-4336-AE76-392F705661BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6533D60-928B-4336-AE76-392F705661BF}.Debug|Win32.Build.0 = Debug|Win32
+		{D6533D60-928B-4336-AE76-392F705661BF}.Debug|x64.ActiveCfg = Debug|x64
+		{D6533D60-928B-4336-AE76-392F705661BF}.Debug|x64.Build.0 = Debug|x64
+		{D6533D60-928B-4336-AE76-392F705661BF}.Release|Win32.ActiveCfg = Release|Win32
+		{D6533D60-928B-4336-AE76-392F705661BF}.Release|Win32.Build.0 = Release|Win32
+		{D6533D60-928B-4336-AE76-392F705661BF}.Release|x64.ActiveCfg = Release|x64
+		{D6533D60-928B-4336-AE76-392F705661BF}.Release|x64.Build.0 = Release|x64
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Debug|Win32.Build.0 = Debug|Win32
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Debug|x64.ActiveCfg = Debug|x64
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Debug|x64.Build.0 = Debug|x64
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Release|Win32.ActiveCfg = Release|Win32
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Release|Win32.Build.0 = Release|Win32
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Release|x64.ActiveCfg = Release|x64
+		{664E6F0D-6784-4760-9565-D54F8EB1EDF4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

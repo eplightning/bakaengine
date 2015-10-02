@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\resources">
+      <UniqueIdentifier>{7e7b630d-c6d7-48c8-b3fc-665d8d32d419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\logging">
+      <UniqueIdentifier>{e645a701-e4a5-4d47-9944-b0d302d54791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_core">
+      <UniqueIdentifier>{fa2a361c-6f7e-4f41-bb3c-f9fd94f2ac9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\config">
+      <UniqueIdentifier>{b748b2a3-9fa8-4006-90d6-47344e464901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\config">
+      <UniqueIdentifier>{628e3695-333e-4d54-820e-94985910255a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_core">
+      <UniqueIdentifier>{65c21916-5690-42bb-bb1b-be067c0443c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\logging">
+      <UniqueIdentifier>{9e27c13f-5114-4bdf-87ee-aef15149bb93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\resources">
+      <UniqueIdentifier>{c1f85cf4-8047-4ab4-af99-87f8185b9d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_event">
+      <UniqueIdentifier>{02b984d6-7ffb-4299-8e18-ecfcf76d54d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_event">
+      <UniqueIdentifier>{8be1c60e-9eea-4d36-bfdb-0f15e7e60bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{8e418ade-9982-4570-953e-eddd41067c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics">
+      <UniqueIdentifier>{575afabe-3ee3-49cd-886e-dc967c844909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_scene">
+      <UniqueIdentifier>{b56c632c-33c6-4aec-82d9-901f4e466fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_scene">
+      <UniqueIdentifier>{c24b21bb-341f-4465-bd6e-97db21b3a5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lostislands">
+      <UniqueIdentifier>{24837fbb-3a44-45c6-abce-809f04caf65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lostislands">
+      <UniqueIdentifier>{eb10be27-a4d7-4a34-b494-3da69c623fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lostislands\core">
+      <UniqueIdentifier>{2161c59a-22e9-4b90-a9f8-4dc8b6cd57d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lostislands\core">
+      <UniqueIdentifier>{96568d90-d7ef-44e2-a062-c4d805e6491e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lostislands\scene">
+      <UniqueIdentifier>{1eed0ff9-abd1-4eb5-87f3-e3bd19021615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lostislands\scene">
+      <UniqueIdentifier>{e3ecb4af-0772-4686-969c-d8854e480e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lostislands\object">
+      <UniqueIdentifier>{b0f45001-62a2-4511-b928-bfffd281fa42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lostislands\object">
+      <UniqueIdentifier>{1d204824-7327-4b64-8218-43898b995351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{393e70a8-4399-41f6-a670-c742a513f0e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{edfdc428-8d08-45b2-968d-fb7cb2bfc77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physics">
+      <UniqueIdentifier>{07980225-3799-421a-a66f-459acf81cc1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\physics">
+      <UniqueIdentifier>{3bf22956-8428-4fb9-8b4c-5b5624ebf9cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\sourcefilesystem.cpp">
+      <Filter>Source Files\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="game\core\registry.cpp">
+      <Filter>Source Files\game_core</Filter>
+    </ClCompile>
+    <ClCompile Include="game\event\eventdispatcherstatic.cpp">
+      <Filter>Source Files\game_event</Filter>
+    </ClCompile>
+    <ClCompile Include="game\event\eventmanager.cpp">
+      <Filter>Source Files\game_event</Filter>
+    </ClCompile>
+    <ClCompile Include="config\configini.cpp">
+      <Filter>Source Files\config</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\resources.cpp">
+      <Filter>Source Files\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="logging\loggerfile.cpp">
+      <Filter>Source Files\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="game\core\utils_win32.cpp">
+      <Filter>Source Files\game_core</Filter>
+    </ClCompile>
+    <ClCompile Include="game\core\actions.cpp">
+      <Filter>Source Files\game_core</Filter>
+    </ClCompile>
+    <ClCompile Include="game\core\window.cpp">
+      <Filter>Source Files\game_core</Filter>
+    </ClCompile>
+    <ClCompile Include="game\core\input.cpp">
+      <Filter>Source Files\game_core</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\imagesupport.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\scene\scene.cpp">
+      <Filter>Source Files\game_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="lostislands\core\gamemanager.cpp">
+      <Filter>Source Files\lostislands\core</Filter>
+    </ClCompile>
+    <ClCompile Include="game\event\eventdispatcherscene.cpp">
+      <Filter>Source Files\game_event</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\renderer.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\mesh.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\objcache.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\shader.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\texture.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\scene\component.cpp">
+      <Filter>Source Files\game_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="game\scene\gameobject.cpp">
+      <Filter>Source Files\game_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="game\scene\common_components.cpp">
+      <Filter>Source Files\game_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="lostislands\object\floor.cpp">
+      <Filter>Source Files\lostislands\object</Filter>
+    </ClCompile>
+    <ClCompile Include="lostislands\object\torch.cpp">
+      <Filter>Source Files\lostislands\object</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\collisionengine.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="lostislands\object\player.cpp">
+      <Filter>Source Files\lostislands\object</Filter>
+    </ClCompile>
+    <ClCompile Include="lostislands\scene\gameplay.cpp">
+      <Filter>Source Files\lostislands\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="lostislands\object\treasure.cpp">
+      <Filter>Source Files\lostislands\object</Filter>
+    </ClCompile>
+    <ClCompile Include="lostislands\object\floor_manager.cpp">
+      <Filter>Source Files\lostislands\object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logging\logger.h">
+      <Filter>Header Files\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\sourcebase.h">
+      <Filter>Header Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\sourcefilesystem.h">
+      <Filter>Header Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="game\core\registry.h">
+      <Filter>Header Files\game_core</Filter>
+    </ClInclude>
+    <ClInclude Include="game\event\eventdispatcherbase.h">
+      <Filter>Header Files\game_event</Filter>
+    </ClInclude>
+    <ClInclude Include="game\event\eventdispatcherstatic.h">
+      <Filter>Header Files\game_event</Filter>
+    </ClInclude>
+    <ClInclude Include="game\event\eventmanager.h">
+      <Filter>Header Files\game_event</Filter>
+    </ClInclude>
+    <ClInclude Include="bakaglobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config\config.h">
+      <Filter>Header Files\config</Filter>
+    </ClInclude>
+    <ClInclude Include="config\configini.h">
+      <Filter>Header Files\config</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\resources.h">
+      <Filter>Header Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="game\core\utils.h">
+      <Filter>Header Files\game_core</Filter>
+    </ClInclude>
+    <ClInclude Include="logging\loggerfile.h">
+      <Filter>Header Files\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="logging\loggernull.h">
+      <Filter>Header Files\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="game\core\actions.h">
+      <Filter>Header Files\game_core</Filter>
+    </ClInclude>
+    <ClInclude Include="game\core\window.h">
+      <Filter>Header Files\game_core</Filter>
+    </ClInclude>
+    <ClInclude Include="game\core\input.h">
+      <Filter>Header Files\game_core</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\imagesupport.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\scene\gameobject.h">
+      <Filter>Header Files\game_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="game\scene\scene.h">
+      <Filter>Header Files\game_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="lostislands\core\gamemanager.h">
+      <Filter>Header Files\lostislands\core</Filter>
+    </ClInclude>
+    <ClInclude Include="game\scene\component.h">
+      <Filter>Header Files\game_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="game\event\eventdispatcherscene.h">
+      <Filter>Header Files\game_event</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\renderer.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\mesh.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\objcache.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\shader.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\texture.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\scene\common_components.h">
+      <Filter>Header Files\game_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="lostislands\object\floor.h">
+      <Filter>Header Files\lostislands\object</Filter>
+    </ClInclude>
+    <ClInclude Include="lostislands\object\torch.h">
+      <Filter>Header Files\lostislands\object</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\collisionengine.h">
+      <Filter>Header Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="lostislands\object\player.h">
+      <Filter>Header Files\lostislands\object</Filter>
+    </ClInclude>
+    <ClInclude Include="lostislands\scene\gameplay.h">
+      <Filter>Header Files\lostislands\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="lostislands\object\treasure.h">
+      <Filter>Header Files\lostislands\object</Filter>
+    </ClInclude>
+    <ClInclude Include="lostislands\object\floor_manager.h">
+      <Filter>Header Files\lostislands\object</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

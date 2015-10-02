@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D6533D60-928B-4336-AE76-392F705661BF}</ProjectGuid>
+    <RootNamespace>bakaengine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)glfw3\include;$(SolutionDir)glew-1.12.0\include;$(SolutionDir)glm;$(SolutionDir)assimp\include;$(SolutionDir)SOIL\include;$(SolutionDir)simpleini;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GLEW_STATIC;_UNICODE;UNICODE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;zlibstat.lib;assimp.lib;SOIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)glfw3/lib/$(ConfigurationName)/Win32;$(SolutionDir)SOIL/lib/$(ConfigurationName/Win32;$(SolutionDir)assimp/lib/$(ConfigurationName)/Win32;$(SolutionDir)zlib/lib/$(ConfigurationName)/Win32</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)glfw3\include;$(SolutionDir)glew-1.12.0\include;$(SolutionDir)glm;$(SolutionDir)assimp\include;$(SolutionDir)SOIL\include;$(SolutionDir)simpleini;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GLEW_STATIC;_UNICODE;UNICODE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;SOIL.lib;zlibstat.lib;assimpd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)glfw3/lib/$(ConfigurationName)/x64;$(SolutionDir)SOIL/lib/$(ConfigurationName)/x64;$(SolutionDir)assimp/lib/$(ConfigurationName)/x64;$(SolutionDir)zlib/lib/$(ConfigurationName)/x64</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)glfw3\include;$(SolutionDir)glew-1.12.0\include;$(SolutionDir)glm;$(SolutionDir)assimp\include;$(SolutionDir)SOIL\include;$(SolutionDir)simpleini;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GLEW_STATIC;_UNICODE;UNICODE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;zlibstat.lib;assimp.lib;SOIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)glfw3/lib/$(ConfigurationName)/Win32;$(SolutionDir)SOIL/lib/$(ConfigurationName/Win32;$(SolutionDir)assimp/lib/$(ConfigurationName)/Win32;$(SolutionDir)zlib/lib/$(ConfigurationName)/Win32</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)glfw3\include;$(SolutionDir)glew-1.12.0\include;$(SolutionDir)glm;$(SolutionDir)assimp\include;$(SolutionDir)SOIL\include;$(SolutionDir)simpleini;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GLEW_STATIC;_UNICODE;UNICODE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;SOIL.lib;zlibstat.lib;assimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)glfw3/lib/$(ConfigurationName)/x64;$(SolutionDir)SOIL/lib/$(ConfigurationName)/x64;$(SolutionDir)assimp/lib/$(ConfigurationName)/x64;$(SolutionDir)zlib/lib/$(ConfigurationName)/x64</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\glew-1.12.0\build\vc12\glew_static.vcxproj">
+      <Project>{664e6f0d-6784-4760-9565-d54f8eb1edf4}</Project>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="config\configini.cpp" />
+    <ClCompile Include="game\core\actions.cpp" />
+    <ClCompile Include="game\core\input.cpp" />
+    <ClCompile Include="game\core\registry.cpp" />
+    <ClCompile Include="game\core\utils_win32.cpp" />
+    <ClCompile Include="game\core\window.cpp" />
+    <ClCompile Include="game\event\eventdispatcherscene.cpp" />
+    <ClCompile Include="game\event\eventdispatcherstatic.cpp" />
+    <ClCompile Include="game\event\eventmanager.cpp" />
+    <ClCompile Include="game\scene\common_components.cpp" />
+    <ClCompile Include="game\scene\component.cpp" />
+    <ClCompile Include="game\scene\gameobject.cpp" />
+    <ClCompile Include="game\scene\scene.cpp" />
+    <ClCompile Include="graphics\imagesupport.cpp" />
+    <ClCompile Include="graphics\texture.cpp" />
+    <ClCompile Include="graphics\mesh.cpp" />
+    <ClCompile Include="graphics\objcache.cpp" />
+    <ClCompile Include="graphics\renderer.cpp" />
+    <ClCompile Include="graphics\shader.cpp" />
+    <ClCompile Include="logging\loggerfile.cpp" />
+    <ClCompile Include="lostislands\core\gamemanager.cpp" />
+    <ClCompile Include="lostislands\object\floor.cpp" />
+    <ClCompile Include="lostislands\object\floor_manager.cpp" />
+    <ClCompile Include="lostislands\object\player.cpp" />
+    <ClCompile Include="lostislands\object\torch.cpp" />
+    <ClCompile Include="lostislands\object\treasure.cpp" />
+    <ClCompile Include="lostislands\scene\gameplay.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="physics\collisionengine.cpp" />
+    <ClCompile Include="resources\resources.cpp" />
+    <ClCompile Include="resources\sourcefilesystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bakaglobal.h" />
+    <ClInclude Include="config\config.h" />
+    <ClInclude Include="config\configini.h" />
+    <ClInclude Include="game\core\actions.h" />
+    <ClInclude Include="game\core\input.h" />
+    <ClInclude Include="game\core\registry.h" />
+    <ClInclude Include="game\core\utils.h" />
+    <ClInclude Include="game\core\window.h" />
+    <ClInclude Include="game\event\eventdispatcherbase.h" />
+    <ClInclude Include="game\event\eventdispatcherscene.h" />
+    <ClInclude Include="game\event\eventdispatcherstatic.h" />
+    <ClInclude Include="game\event\eventmanager.h" />
+    <ClInclude Include="game\scene\common_components.h" />
+    <ClInclude Include="game\scene\component.h" />
+    <ClInclude Include="game\scene\gameobject.h" />
+    <ClInclude Include="game\scene\scene.h" />
+    <ClInclude Include="graphics\imagesupport.h" />
+    <ClInclude Include="graphics\texture.h" />
+    <ClInclude Include="graphics\mesh.h" />
+    <ClInclude Include="graphics\objcache.h" />
+    <ClInclude Include="graphics\renderer.h" />
+    <ClInclude Include="graphics\shader.h" />
+    <ClInclude Include="logging\logger.h" />
+    <ClInclude Include="logging\loggerfile.h" />
+    <ClInclude Include="logging\loggernull.h" />
+    <ClInclude Include="lostislands\core\gamemanager.h" />
+    <ClInclude Include="lostislands\object\floor.h" />
+    <ClInclude Include="lostislands\object\floor_manager.h" />
+    <ClInclude Include="lostislands\object\player.h" />
+    <ClInclude Include="lostislands\object\torch.h" />
+    <ClInclude Include="lostislands\object\treasure.h" />
+    <ClInclude Include="lostislands\scene\gameplay.h" />
+    <ClInclude Include="physics\collisionengine.h" />
+    <ClInclude Include="resources\resources.h" />
+    <ClInclude Include="resources\sourcebase.h" />
+    <ClInclude Include="resources\sourcefilesystem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\shaders\standard.glsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\shaders\standard.glsl.frag">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
